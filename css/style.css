@@ -2,17 +2,34 @@ html,body{
     margin:0;
     padding:0;
 }
-.unIndice{
-    flex:1;
-}
 .soupe{
     height:100vh;
+    display:flex;
+}
+.legume{
+    flex:1;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .carottes{
-    height:50% ;
-    width:50%;
-    background-image: url("../images/carottes.png");
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-image:url("../images/carottes.png");
 }
+
+.navets{
+    background-image:url("../images/navets.png");
+}
+
+.courgettes{
+    background-image:url("../images/courgettes.png");
+}
+
+.oignons{
+    background-image:url("../images/oignons.png");
+}
+
+.patates{
+    background-image:url("../images/patates.png");
+}
+
