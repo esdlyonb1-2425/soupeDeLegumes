@@ -1,0 +1,18 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.unIndice{
+    flex:1;
+}
+.soupe{
+    height:100vh;
+}
+.carottes{
+    height:50% ;
+    width:50%;
+    background-image: url("../images/carottes.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
